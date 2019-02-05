@@ -63,13 +63,6 @@ Pearson.Spearman.Correlation.Matrix<-function(P.matrix,Rank){
   return(pearson.spearman)
 }
 
-my.reorder <- function(cormat){
-  # Use correlation between variables as distance
-  dd <- as.dist((1-cormat)/2)
-  hc <- hclust(dd)
-  cormat <-cormat[hc$order, hc$order]
-  return(cormat)
-}
 node.numbers<-c(6980,14488,16)
 layer.sizes<-c(7,13,2)
 layer.names<-list(arabidopsis_genetic_layers,arxiv_netscience_layers,Padgett.Florentine.Families_layers)
@@ -90,9 +83,17 @@ pearson.matrix<-sapply(1:length(pearson.coefficients.matrix),function(i) {
     rownames(data)<-layer.names[[i]]$layerLabel
     return(data)
 })
+spearman.matrix<-sapply(1:length(spearman.coefficients.matrix),function(i) {
+  data<-as.data.frame(spearman.coefficients.matrix[[i]])
+  colnames(data)<-layer.names[[i]]$layerLabel
+  rownames(data)<-layer.names[[i]]$layerLabel
+  return(data)
+})
 
+melted.spearman.matrix<- lapply(1:length(pearson.matrix), function(i) my.reshape(spearman.matrix[[i]]))
 melted.pearson.matrix <- lapply(1:length(pearson.matrix), function(i) my.reshape(pearson.matrix[[i]]))
-ggheatmap <- ggplot(melted.pearson.matrix[[2]], aes(Var2, Var1, fill = value))+
+heatmaps.pearson<-lapply(1:length(pearson.matrix), function(i) {
+  ggheatmap <- ggplot(melted.pearson.matrix[[i]], aes(Var2, Var1, fill = value))+
   geom_tile(color = "white")+
   scale_fill_gradient2(low = "blue", high = "red", mid = "white", 
                        midpoint = 0, limit = c(-1,1), space = "Lab", 
@@ -100,10 +101,7 @@ ggheatmap <- ggplot(melted.pearson.matrix[[2]], aes(Var2, Var1, fill = value))+
   theme_minimal()+ # minimal theme
   theme(axis.text.x = element_text(angle = 45, vjust = 1, 
                                    size = 12, hjust = 1))+
-  coord_fixed()
-# Print the heatmap
-print(ggheatmap)
-ggheatmap + 
+  coord_fixed() + 
   geom_text(aes(Var2, Var1, label = value), color = "black", size = 3) +
   theme(
     axis.title.x = element_blank(),
@@ -117,6 +115,33 @@ ggheatmap +
     legend.direction = "horizontal")+
   guides(fill = guide_colorbar(barwidth = 7, barheight = 1,
                                title.position = "top", title.hjust = 0.5))
+  return(ggheatmap)
+})
+heatmaps.spearman<-lapply(1:length(spearman.matrix), function(i) {
+  ggheatmap <- ggplot(melted.spearman.matrix[[i]], aes(Var2, Var1, fill = value))+
+    geom_tile(color = "white")+
+    scale_fill_gradient2(low = "blue", high = "red", mid = "white", 
+                         midpoint = 0, limit = c(-1,1), space = "Lab", 
+                         name="Pearson\nCorrelation") +
+    theme_minimal()+ # minimal theme
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, 
+                                     size = 12, hjust = 1))+
+    coord_fixed() + 
+    geom_text(aes(Var2, Var1, label = value), color = "black", size = 3) +
+    theme(
+      axis.title.x = element_blank(),
+      axis.title.y = element_blank(),
+      panel.grid.major = element_blank(),
+      panel.border = element_blank(),
+      panel.background = element_blank(),
+      axis.ticks = element_blank(),
+      legend.justification = c(1, 0),
+      #legend.position = c(0.6, 0.7),
+      legend.direction = "horizontal")+
+    guides(fill = guide_colorbar(barwidth = 7, barheight = 1,
+                                 title.position = "top", title.hjust = 0.5))
+  return(ggheatmap)
+})
 
 coefficients.list<-list(pearson.coefficients, spearman.coefficients)
 coefficients.means<- sapply(coefficients.list, function(sp) sapply(sp, function(x) mean(x)))
