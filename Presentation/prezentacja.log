@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.24)  5 FEB 2019 18:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.24)  5 FEB 2019 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1700,28 +1700,28 @@ Package pdftex.def Info: PW.png  used on input line 311.
 ]
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 319.
+Package pdftex.def Info: PW.png  used on input line 321.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
  [26
 
 ]
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 319.
+Package pdftex.def Info: PW.png  used on input line 321.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
  [27
 
 ]
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 319.
+Package pdftex.def Info: PW.png  used on input line 321.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
  [28
 
 ] (./prezentacja.toc)
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 322.
+Package pdftex.def Info: PW.png  used on input line 324.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
  [29
 
@@ -1729,16 +1729,16 @@ Package pdftex.def Info: PW.png  used on input line 322.
 <heamapPearson1.png, id=1090, 624.08156pt x 423.08063pt>
 File: heamapPearson1.png Graphic file (type png)
 <use heamapPearson1.png>
-Package pdftex.def Info: heamapPearson1.png  used on input line 325.
+Package pdftex.def Info: heamapPearson1.png  used on input line 327.
 (pdftex.def)             Requested size: 287.081pt x 194.61945pt.
 
-Overfull \hbox (8.24387pt too wide) in paragraph at lines 325--325
+Overfull \hbox (8.24387pt too wide) in paragraph at lines 327--327
 [][]  
  []
 
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 325.
+Package pdftex.def Info: PW.png  used on input line 327.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
 [30
 
@@ -1746,16 +1746,16 @@ Package pdftex.def Info: PW.png  used on input line 325.
 <heamapPearson2.png, id=1124, 624.08156pt x 423.08063pt>
 File: heamapPearson2.png Graphic file (type png)
 <use heamapPearson2.png>
-Package pdftex.def Info: heamapPearson2.png  used on input line 328.
+Package pdftex.def Info: heamapPearson2.png  used on input line 330.
 (pdftex.def)             Requested size: 287.081pt x 194.61945pt.
 
-Overfull \hbox (8.24387pt too wide) in paragraph at lines 328--328
+Overfull \hbox (8.24387pt too wide) in paragraph at lines 330--330
 [][]  
  []
 
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 328.
+Package pdftex.def Info: PW.png  used on input line 330.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
 [31
 
@@ -1763,16 +1763,16 @@ Package pdftex.def Info: PW.png  used on input line 328.
 <heamapPearson3.png, id=1158, 624.08156pt x 423.08063pt>
 File: heamapPearson3.png Graphic file (type png)
 <use heamapPearson3.png>
-Package pdftex.def Info: heamapPearson3.png  used on input line 331.
+Package pdftex.def Info: heamapPearson3.png  used on input line 333.
 (pdftex.def)             Requested size: 287.081pt x 194.61945pt.
 
-Overfull \hbox (8.24387pt too wide) in paragraph at lines 331--331
+Overfull \hbox (8.24387pt too wide) in paragraph at lines 333--333
 [][]  
  []
 
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 331.
+Package pdftex.def Info: PW.png  used on input line 333.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
 [32
 
@@ -1780,16 +1780,16 @@ Package pdftex.def Info: PW.png  used on input line 331.
 <heamapSpearman1.png, id=1191, 624.08156pt x 423.08063pt>
 File: heamapSpearman1.png Graphic file (type png)
 <use heamapSpearman1.png>
-Package pdftex.def Info: heamapSpearman1.png  used on input line 335.
+Package pdftex.def Info: heamapSpearman1.png  used on input line 337.
 (pdftex.def)             Requested size: 287.081pt x 194.61945pt.
 
-Overfull \hbox (8.24387pt too wide) in paragraph at lines 335--335
+Overfull \hbox (8.24387pt too wide) in paragraph at lines 337--337
 [][]  
  []
 
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 335.
+Package pdftex.def Info: PW.png  used on input line 337.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
 [33
 
@@ -1797,16 +1797,16 @@ Package pdftex.def Info: PW.png  used on input line 335.
 <heamapSpearman2.png, id=1225, 624.08156pt x 423.08063pt>
 File: heamapSpearman2.png Graphic file (type png)
 <use heamapSpearman2.png>
-Package pdftex.def Info: heamapSpearman2.png  used on input line 338.
+Package pdftex.def Info: heamapSpearman2.png  used on input line 340.
 (pdftex.def)             Requested size: 287.081pt x 194.61945pt.
 
-Overfull \hbox (8.24387pt too wide) in paragraph at lines 338--338
+Overfull \hbox (8.24387pt too wide) in paragraph at lines 340--340
 [][]  
  []
 
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 338.
+Package pdftex.def Info: PW.png  used on input line 340.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
 [34
 
@@ -1814,23 +1814,23 @@ Package pdftex.def Info: PW.png  used on input line 338.
 <heamapSpearman3.png, id=1257, 624.08156pt x 423.08063pt>
 File: heamapSpearman3.png Graphic file (type png)
 <use heamapSpearman3.png>
-Package pdftex.def Info: heamapSpearman3.png  used on input line 341.
+Package pdftex.def Info: heamapSpearman3.png  used on input line 343.
 (pdftex.def)             Requested size: 287.081pt x 194.61945pt.
 
-Overfull \hbox (8.24387pt too wide) in paragraph at lines 341--341
+Overfull \hbox (8.24387pt too wide) in paragraph at lines 343--343
 [][]  
  []
 
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 341.
+Package pdftex.def Info: PW.png  used on input line 343.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
 [35
 
  <./heamapSpearman3.png (PNG copy)>] (./prezentacja.toc)
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 343.
+Package pdftex.def Info: PW.png  used on input line 345.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
  [36
 
@@ -1838,11 +1838,11 @@ Package pdftex.def Info: PW.png  used on input line 343.
 <plot1.png, id=1334, 481.8pt x 481.8pt>
 File: plot1.png Graphic file (type png)
 <use plot1.png>
-Package pdftex.def Info: plot1.png  used on input line 346.
+Package pdftex.def Info: plot1.png  used on input line 348.
 (pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 346.
+Package pdftex.def Info: PW.png  used on input line 348.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
  [37
 
@@ -1850,11 +1850,11 @@ Package pdftex.def Info: PW.png  used on input line 346.
 <plot2.png, id=1368, 481.8pt x 481.8pt>
 File: plot2.png Graphic file (type png)
 <use plot2.png>
-Package pdftex.def Info: plot2.png  used on input line 349.
+Package pdftex.def Info: plot2.png  used on input line 351.
 (pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 349.
+Package pdftex.def Info: PW.png  used on input line 351.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
  [38
 
@@ -1862,22 +1862,22 @@ Package pdftex.def Info: PW.png  used on input line 349.
 <plot3.png, id=1400, 481.8pt x 481.8pt>
 File: plot3.png Graphic file (type png)
 <use plot3.png>
-Package pdftex.def Info: plot3.png  used on input line 352.
+Package pdftex.def Info: plot3.png  used on input line 354.
 (pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
 
-Overfull \vbox (14.02625pt too high) detected at line 352
+Overfull \vbox (14.02625pt too high) detected at line 354
  []
 
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 352.
+Package pdftex.def Info: PW.png  used on input line 354.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
 [39
 
  <./plot3.png (PNG copy)>] (./prezentacja.toc)
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 354.
+Package pdftex.def Info: PW.png  used on input line 356.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
  [40
 
@@ -1885,11 +1885,11 @@ Package pdftex.def Info: PW.png  used on input line 354.
 <boxplotPearson.png, id=1476, 651.93562pt x 436.63126pt>
 File: boxplotPearson.png Graphic file (type png)
 <use boxplotPearson.png>
-Package pdftex.def Info: boxplotPearson.png  used on input line 357.
+Package pdftex.def Info: boxplotPearson.png  used on input line 359.
 (pdftex.def)             Requested size: 273.81108pt x 183.38387pt.
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 357.
+Package pdftex.def Info: PW.png  used on input line 359.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
  [41
 
@@ -1897,11 +1897,11 @@ Package pdftex.def Info: PW.png  used on input line 357.
 <boxplotSpearman.png, id=1508, 651.93562pt x 436.63126pt>
 File: boxplotSpearman.png Graphic file (type png)
 <use boxplotSpearman.png>
-Package pdftex.def Info: boxplotSpearman.png  used on input line 360.
+Package pdftex.def Info: boxplotSpearman.png  used on input line 362.
 (pdftex.def)             Requested size: 273.81108pt x 183.38387pt.
 File: PW.png Graphic file (type png)
 <use PW.png>
-Package pdftex.def Info: PW.png  used on input line 360.
+Package pdftex.def Info: PW.png  used on input line 362.
 (pdftex.def)             Requested size: 22.76228pt x 50.00443pt.
  [42
 
@@ -1915,11 +1915,11 @@ Package pdftex.def Info: PW.png  used on input line 360.
 \tf@snm=\write8
 \openout8 = `prezentacja.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 361.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 361.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
  (./prezentacja.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 361.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 361.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 363.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 363.
 Package rerunfilecheck Info: File `prezentacja.out' has not changed.
 (rerunfilecheck)             Checksum: 3234EDF9AEE2F739DB2B0674413EEC8B;609.
  ) 
@@ -1948,7 +1948,7 @@ sr/share/texlive/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/pl/plsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/p
 l/plti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plti12.pfb>
-Output written on prezentacja.pdf (42 pages, 623248 bytes).
+Output written on prezentacja.pdf (42 pages, 623429 bytes).
 PDF statistics:
  1622 PDF objects out of 1728 (max. 8388607)
  1524 compressed objects within 16 object streams
