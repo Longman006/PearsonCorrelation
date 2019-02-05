@@ -1,0 +1,4 @@
+\babel@toc {polish}{}
+\beamer@sectionintoc {1}{Wst\IeC {\k e}p}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Cel Pracy}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Dane}{6}{0}{1}
